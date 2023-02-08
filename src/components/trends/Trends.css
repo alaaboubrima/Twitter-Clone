@@ -1,0 +1,39 @@
+.trends {
+  flex: 0.3;
+  margin-left: 15px;
+}
+
+.trends__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 288px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.trends__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+.trends__searchIcon {
+  color: gray;
+}
+.hashContainer1 {
+  margin: auto;
+  margin-left: 0px !important;
+}
+.trendsContainer {
+  margin-top: 15px;
+  margin-left: 16px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.trendsContainer > h2 {
+  padding: 20px 20px 0 20px;
+  font-size: 18px;
+  font-weight: 800;
+}
