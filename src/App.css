@@ -1,0 +1,17 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+body {
+    --twitter-color: rgb(29, 155, 240);
+    --twitter-background: #e6ecf0;
+  }
+  
+.App {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+  }
