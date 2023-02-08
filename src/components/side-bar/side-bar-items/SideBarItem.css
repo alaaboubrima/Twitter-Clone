@@ -1,0 +1,25 @@
+.sidebar__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    padding: 4px 0 3.5px 0;
+  }
+.sidebar__img {
+  width: 27px;
+  padding: 12px 12px 12px 12px;
+  
+}
+.sidebar__img:hover {
+  border-radius: 200px;
+  background-color: #E6E7E7;
+  transition: color 100ms ease-in;
+}
+
+
+  
+  /* .sidebar__item--active {
+    background-color: #e8f5fe;
+    border-radius: 200px;
+    width: fit-content;
+  } */
