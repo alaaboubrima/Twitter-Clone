@@ -13,7 +13,7 @@ function Trends() {
     <div className="trends">
       <div className="trends__input">
         <SearchIcon className="trends__searchIcon" />
-        <input placeholder="Search Twitter" type="text" />
+        <input className="trends__input__input" placeholder="Search Twitter" type="text" />
       </div>
 
       <div className="trendsContainer">
