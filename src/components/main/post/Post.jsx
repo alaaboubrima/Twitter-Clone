@@ -6,10 +6,21 @@ import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
+import { CommentIcon, RetweetIcon, LikeIcon, ViewIcon, ShareIcon} from "../../../assets/icons/Icons"
+
+
 import axios from 'axios'
 
 function Post (props) {
   const [post, setPost] = React.useState([])
+
+  const [like, setLike] = React.useState(20)
+  const [liked, setLiked] = React.useState(false)
+
+  const handleLikes = function () {
+    setLiked(!liked)
+    return liked ? setLike(like - 1) : setLike(like + 1);
+  }
 
   React.useEffect(() => {
     axios
@@ -47,10 +58,16 @@ function Post (props) {
             </div>
             <img src={props.image} alt="" />
             <div className="post__footer">
-              <ChatBubbleOutlineIcon fontSize="small" />
-              <RepeatIcon fontSize="small" />
-              <FavoriteBorderIcon fontSize="small" />
-              <PublishIcon fontSize="small" />
+              <CommentIcon 
+              className="blue"
+              /> <span className="blue-span">10</span>
+              <RetweetIcon /> <span className="green-span">10</span>
+              <div className="zero" onClick={handleLikes}>
+              <LikeIcon /> <span className="red-span">{like}</span>
+              </div>
+              <ViewIcon /> <span className="blue-span">10</span>
+              <ShareIcon />
+              <span className="post-icon0"></span><span className="blues">Tip</span>
             </div>
           </div>
         </div>

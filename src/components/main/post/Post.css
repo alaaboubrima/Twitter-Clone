@@ -5,6 +5,11 @@
   padding-bottom: 10px;
 }
 
+.post:hover {
+  background-color: #F7F7F7;
+  cursor: pointer;
+}
+
 .post__body {
   flex: 1;
   padding: 10px;
@@ -15,9 +20,13 @@
 }
 
 .post__footer {
+  align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   margin-top: 20px;
+}
+.post__footer > span {
+  margin-right: 20px;
 }
 
 .post__headerDescription {
@@ -43,4 +52,28 @@
 
 .post__avatar {
   padding: 20px;
+}
+
+.post-icon0 {
+  content: url("data:image/svg+xml,%3Csvg%20fill%3D%22inherit%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2016%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M10.821%2011.1L8.075%206.732v-2.38l4.917%208.195-2.17-1.447zm-6.03.965h5.397l1.752%201.168H2.747l2.043-1.168zm2.13-5.333L4.187%2011.08l-1.983%201.133%204.717-7.861v2.38zm.577%201.251l1.841%202.928H5.657l1.841-2.928zm7.42%205.53L7.993%201.97c-.018-.03-.043-.054-.066-.08a.568.568%200%2000-.429-.2.57.57%200%2000-.43.2c-.022.026-.047.05-.064.08L.079%2013.513a.59.59%200%2000-.061.143c-.002.004-.002.007-.002.01a.571.571%200%2000-.008.237.56.56%200%2000.064.193c.01.017.023.029.034.044.02.026.037.055.06.077.021.022.047.038.071.057.017.011.031.025.048.035.027.016.056.025.085.036.018.007.035.016.054.022a.597.597%200%2000.132.017c.006%200%20.012.003.017.003h13.85a.576.576%200%2000.495-.874z%22%20fill%3D%22%236A7684%22%2F%3E%3C%2Fsvg%3E");
+  background: transparent; 
+  display: inline-block; 
+  font-size: 18px; 
+  font-style: normal; 
+  height: 16px; 
+  margin-top: 2px; 
+  margin-left: 30px;
+  position: relative; 
+  vertical-align: baseline; 
+  width: 16px;
+}
+
+.blues:hover {
+  color: var(--twitter-color);
+}
+
+.zero {
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
 }

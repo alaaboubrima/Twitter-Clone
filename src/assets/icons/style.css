@@ -1,0 +1,51 @@
+.tweet-icon {
+    color: var(--twitter-color) !important; 
+    cursor: pointer !important;
+    height: 20px !important;
+    padding: 7px;
+  }
+.tweet-icon:hover {
+    background-color: var(--twitter-background);
+    border-radius: 700px;
+    color: brown;
+}
+
+.blue, .green , .red {
+    cursor: pointer;
+    color: rgb(83, 100, 113);
+    height: 20px !important;
+    width: 1.25em;
+    padding: 7px;
+  }
+.blue:hover {
+    background-color: #E1EEF7;
+    color: var(--twitter-color);
+    border-radius: 700px;
+}
+.blue:hover + .blue-span {
+  color: var(--twitter-color);
+}
+.red:hover {
+  background-color: #E1EEF7;
+  color: #F92487;
+  border-radius: 700px;
+}
+.red:hover + .red-span {
+  color: #F92487;
+}
+.green:hover {
+  background-color: #E1EEF7;
+  color: #00BA7C;
+  border-radius: 700px;
+}
+.green:hover + .red-span {
+  color: #00BA7C;
+}
+
+.isAnim {
+  transition: transform 0.5s;
+  color: #F92487;
+
+  
+}
+
