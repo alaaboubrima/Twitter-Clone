@@ -7,7 +7,7 @@ function Hash() {
 
   React.useEffect(() => {
     axios
-      .get('http://www.boredapi.com/api/activity/')
+      .get('https://www.boredapi.com/api/activity/')
       .then(res => {
         setHash(res.data)
       })
