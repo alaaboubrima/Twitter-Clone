@@ -6,16 +6,33 @@
 .trends__input {
   display: flex;
   align-items: center;
-  background-color: var(--twitter-background);
-  padding: 10px;
   border-radius: 288px;
+  background-color: var(--twitter-background);
+  padding: 10px 20px;
   margin-top: 10px;
   margin-left: 20px;
+  border: 1px transparent solid;
+
 }
 
-.trends__input > input {
+.trends__input__input {
+  font-size: 15px;
   border: none;
   background-color: var(--twitter-background);
+  outline: none;
+  padding: 0 10px;
+}
+
+.trends__input:focus-within {
+  border: 1px var(--twitter-color) solid;
+}
+
+.trends__input:focus-within, .trends__input__input:focus-within {
+  background-color: white;
+}
+
+.trends__input:focus-within .trends__searchIcon {
+  fill: var(--twitter-color);
 }
 
 .trends__searchIcon {
