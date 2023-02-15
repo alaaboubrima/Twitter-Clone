@@ -2,7 +2,7 @@ import React from 'react'
 import IMAGES from "../../assets/images.jsx"
 import SideBarItem from './side-bar-items/SideBarItem';
 import TwitterIcon from "@material-ui/icons/Twitter";
-import {Tweet} from "../../assets/icons/icons"
+import {Tweet} from "../../assets/icons/Icons"
 import "./side-bar-items/SideBarItem.css"
 
 import "./SideBar.css";
