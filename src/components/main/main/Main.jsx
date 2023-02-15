@@ -11,22 +11,28 @@ function Main() {
         <div className="main">
             <div className="main__header">
                 <h2>Home</h2>
+                <div className="following">
+                    <div id="f1">
+                        <div>For you</div>
+                    </div>
+                    <div id="f2">
+                        <div>Following</div>
+                    </div>
+                </div>
                 
-            </div>
-            <div className="following">
-                <div id="f1">
-                    <div>For you</div>
-                </div>
-                <div id="f2">
-                    <div>Following</div>
-                </div>
             </div>
 
             <TweetBox />
 
-                <Post/>
-                <Post/>
-                <Post/>
+                <Post likes={12} />
+                <Post likes={0} />
+                <Post likes={15} />
+                <Post likes={8} />
+                <Post likes={2} />
+                <Post likes={1} />
+                <Post likes={30} />
+                <Post likes={20} />
+                <Post likes={23} />
         </div>
     );
 }

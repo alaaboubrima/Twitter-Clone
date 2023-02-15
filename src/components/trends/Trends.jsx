@@ -11,9 +11,11 @@ import SearchIcon from "@material-ui/icons/Search";
 function Trends() {
   return (
     <div className="trends">
-      <div className="trends__input">
-        <SearchIcon className="trends__searchIcon" />
-        <input className="trends__input__input" placeholder="Search Twitter" type="text" />
+      <div className="search-bar">
+        <div className="trends__input">
+          <SearchIcon className="trends__searchIcon" />
+          <input className="trends__input__input" placeholder="Search Twitter" type="text" />
+        </div>
       </div>
 
       <div className="trendsContainer">
@@ -22,20 +24,20 @@ function Trends() {
         <Hash />
         <Hash />
         <Hash />
+        <Hash />
+        <Hash />
+        <Hash />
+        <Hash />
+        <Hash />
+        <Hash />
+
       </div>
 
         <TwitterTweetEmbed tweetId={"1622744148414545920"} />
 
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="cleverqazi"
-          options={{ height: 400 }}
-        />
 
-        <TwitterShareButton
-          url={"https://facebook.com/cleverprogrammer"}
-          options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
-        />
+
+
       </div>
     </div>
   );

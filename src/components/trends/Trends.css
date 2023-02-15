@@ -9,12 +9,19 @@
   border-radius: 288px;
   background-color: var(--twitter-background);
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 20px;
   border: 1px transparent solid;
 
-}
 
+}
+.search-bar {
+  padding: 5px 0;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
 .trends__input__input {
   font-size: 15px;
   border: none;
@@ -36,11 +43,11 @@
 }
 
 .trends__searchIcon {
-  color: gray;
+  color: rgb(37, 36, 36);
 }
 .hashContainer1 {
-  margin: auto;
   margin-left: 0px !important;
+  margin-bottom: 10px;
 }
 .trendsContainer {
   margin-top: 15px;

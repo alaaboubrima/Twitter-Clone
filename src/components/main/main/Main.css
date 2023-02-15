@@ -1,19 +1,8 @@
 .main {
     flex: 0.5;
     border-right: 1px solid var(--twitter-background);
-    min-width: fit-content;
-    overflow-y: scroll;
-}
-  
-/* Hide scrollbar for Chrome, Safari and Opera */
-.main::-webkit-scrollbar {
-    display: none;
-}
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-.main {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    background-color: white;
+    height: fit-content;
 }
   
 .main__header {
@@ -21,15 +10,18 @@
     top: 0;
     background-color: white;
     z-index: 100;
-    padding: 15px 20px;
+    padding: 15px 0px 0 2px;
+
 }
   
 .main__header > h2 {
+    padding: 0px 15px;
     font-size: 20px;
     font-weight: 600;
 }
 
 .following {
+    margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
     border-bottom: 1px solid var(--twitter-background);
@@ -39,7 +31,8 @@
     padding: 10px;
     width: 50%;
     text-align: center;
-    font-size: 18px
+    font-size: 15px;
+    font-weight: bold;
 }
 #f1:hover, #f2:hover {
     background-color: #E6E7E7;

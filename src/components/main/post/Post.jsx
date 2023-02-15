@@ -14,7 +14,7 @@ import axios from 'axios'
 function Post (props) {
   const [post, setPost] = React.useState([])
 
-  const [like, setLike] = React.useState(20)
+  const [like, setLike] = React.useState(props.likes)
   const [liked, setLiked] = React.useState(false)
 
   const handleLikes = function () {

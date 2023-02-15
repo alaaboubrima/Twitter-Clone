@@ -18,7 +18,7 @@ function Hash() {
 
   return (
     <div className='hashContainer'>
-      <span className='hash__location'>Trending in Algeria</span>
+      <span className='hash__location'>Entertainment · Trending</span>
       <span className='hash__name' key={hash.key}>{hash.type}</span>
       <span className='hash__tweets'>{Math.floor(Math.random() * (50) + 50)}K Tweets</span>
     </div>
