@@ -2,6 +2,8 @@ import React from 'react'
 import IMAGES from "../../assets/images.jsx"
 import SideBarItem from './side-bar-items/SideBarItem';
 import TwitterIcon from "@material-ui/icons/Twitter";
+import {Tweet} from "../../assets/icons/icons"
+import "./side-bar-items/SideBarItem.css"
 
 import "./SideBar.css";
 
@@ -20,7 +22,7 @@ function SideBar() {
         <SideBarItem icon={IMAGES.profile} />
         <SideBarItem icon={IMAGES.more} />
 
-        <SideBarItem className="tweet" icon={IMAGES.tweet} />
+        <Tweet className="sidebar__img tweet" />
 
       </div>
 

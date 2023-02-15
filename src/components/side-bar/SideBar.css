@@ -29,10 +29,12 @@
 }
 
 .tweet {
-  background-color: var(--twitter-color);
-  border-radius: 200px;
-  margin-top: 4px;
+  background-color: var(--twitter-color) !important;
+  border-radius: 200px !important;
+  margin-top: 4px !important;
+  color: white !important;
+  width: 50% !important;
 }
 .tweet:hover {
-  background-color: rgb(40, 175, 290);
+  background-color: rgb(40, 175, 290) !important;
 }
