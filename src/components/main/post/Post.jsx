@@ -32,12 +32,11 @@ function Post (props) {
         console.log("err")
       })
   }, [])
-  console.log(post)
     return (<>
       { 
       
        post.results && post.results.map((item) => (
-          <div className="post">
+          <div className="post" key={item.login.uuid}>
           <div className="post__avatar">
             <Avatar src={item.picture.large} />
           </div>
