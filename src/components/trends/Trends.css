@@ -48,6 +48,7 @@
 .hashContainer1 {
   margin-left: 0px !important;
   margin-bottom: 10px;
+  padding-bottom: 18px;
 }
 .trendsContainer {
   margin-top: 15px;
@@ -60,4 +61,27 @@
   padding: 20px 20px 0 20px;
   font-size: 18px;
   font-weight: 800;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 0 20px;
+}
+.footer > a {
+  text-align:start;
+  padding-right: 15px;
+  width: fit-content;
+  font-size: 13px;
+  text-decoration: none;
+  color: #7A8791 ;
+
+}
+.footer > span {
+  color: #7A8791 ;
+  font-size: 13px;
+  width: 100%;
+}
+.footer > a:hover {
+  text-decoration: underline;
 }

@@ -24,15 +24,12 @@ function Main() {
 
             <TweetBox />
 
-                <Post likes={12} />
-                <Post likes={0} />
-                <Post likes={15} />
-                <Post likes={8} />
-                <Post likes={2} />
-                <Post likes={1} />
-                <Post likes={30} />
-                <Post likes={20} />
-                <Post likes={23} />
+                <Post likes={1} liked={true}/>
+                <Post likes={12} liked={true} image="https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif"/>
+                <Post likes={15} liked={true} />
+                <Post likes={8} liked={true}/>
+                <Post likes={2} liked={true}/>
+
         </div>
     );
 }

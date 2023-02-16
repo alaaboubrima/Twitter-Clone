@@ -15,7 +15,7 @@ function Post (props) {
   const [post, setPost] = React.useState([])
 
   const [like, setLike] = React.useState(props.likes)
-  const [liked, setLiked] = React.useState(false)
+  const [liked, setLiked] = React.useState(props.liked)
 
   const handleLikes = function () {
     setLiked(!liked)

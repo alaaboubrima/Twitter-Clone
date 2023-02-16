@@ -33,12 +33,24 @@ function Trends() {
 
       </div>
 
-        <TwitterTweetEmbed tweetId={"1622744148414545920"} />
+
+
 
 
 
 
       </div>
+      <div className="footer">
+
+        <a href="">Terms of Service </a>
+        <a href="">Privacy Policy</a>
+        <a href="">Cookie Policy</a>
+        <a href="">Accessibility</a>
+        <a href="">Ads info</a>
+        <a href="">More...</a>
+        <span>© 2023 Twitter, Inc.</span>
+      </div>
+
     </div>
   );
 }

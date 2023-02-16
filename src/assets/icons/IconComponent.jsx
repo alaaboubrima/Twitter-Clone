@@ -4,7 +4,7 @@ import "./style.css"
 
 function IconComponent(props) {
 
-  const [isAnimating, setIsAnimating] = React.useState(false);
+  const [isAnimating, setIsAnimating] = React.useState(true);
   
   const handleClick = () => {
     setIsAnimating(!isAnimating);
