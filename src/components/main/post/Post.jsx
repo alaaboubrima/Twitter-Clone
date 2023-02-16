@@ -62,8 +62,8 @@ function Post (props) {
               /> <span className="blue-span">10</span>
               <RetweetIcon /> <span className="green-span">10</span>
               <div className="zero" onClick={handleLikes}>
-              <LikeIcon /> <span className="red-span">{like}</span>
-              </div>
+              <LikeIcon /></div> <span className="red-span">{like}</span>
+              
               <ViewIcon /> <span className="blue-span">10</span>
               <ShareIcon />
               <span className="post-icon0"></span><span className="blues">Tip</span>
