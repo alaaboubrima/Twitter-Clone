@@ -23,7 +23,7 @@ To run this app on your local machine, follow these steps:
 
 ## Usage
 
-This app is basically a clone for the Twitter's home page. It uses some APIs, one of them is to generate randome users. It has some functionalities, feel free to discover them.
+This app is basically a clone for the Twitter's home page. It uses some APIs, one of them is to generate random users. It has some functionalities, feel free to discover them.
 
 ## Contributing
 
